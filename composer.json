@@ -1,0 +1,47 @@
+{
+  "name": "smohring/contao-cearch-pro",
+  "description": "Enhances the default Contao search by using the Levenshtein algorithm",
+  "keywords": [
+    "contao",
+    "search",
+    "cearch",
+    "search engine",
+    "engine"
+  ],
+  "type": "contao-module",
+  "homepage": "http://smohring.de",
+  "license": "MIT License",
+  "authors": [
+    {
+      "name": "Steffen Mohring",
+      "email": "me@steffenmohring.de",
+      "homepage": "http://steffenmohring.de",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "me@steffenmohring.de",
+    "issues": "https://github.com/smohring/CearchPro/issues",
+    "source": "https://github.com/smohring/CearchPro"
+  },
+  "require": {
+    "php": ">=5.3",
+    "contao/core": ">=3.0, <4.0",
+    "contao-community-alliance/composer-plugin": "~2.0"
+  },
+  "replace": {
+    "contao-legacy/CearchPro": "*"
+  },
+  "autoload": {
+    "classmap": [
+      ""
+    ]
+  },
+  "extra": {
+    "contao": {
+      "sources": {
+        "": "system/modules/zCearchPro"
+      }
+    }
+  }
+}
